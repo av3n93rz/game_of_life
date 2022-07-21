@@ -1,0 +1,55 @@
+@font-face { font-family: Haksen; src: url('./fonts/Haksen.ttf'); }
+@font-face { font-family: Malberg; src: url('./fonts/Malberg.ttf'); }
+
+/* TODO: change values from pixel to % or something dynamic */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#title {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 20px 0;
+}
+
+h1 {
+  font-family: Haksen;
+  font-size: 66px;
+  margin: 0;
+}
+
+h4 {
+  font-family: Malberg;
+  font-size: 16px;
+  margin: 0;
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+button:not(:first-child) {
+  margin-left: 98px;
+}
+
+#canvas {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+rect {
+  cursor: pointer;
+}
