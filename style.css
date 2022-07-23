@@ -52,4 +52,13 @@ button:not(:first-child) {
 
 rect {
   cursor: pointer;
+  fill: rgb(200, 200, 200);
+}
+
+rect:hover {
+  fill: rgb(150, 150, 150);
+}
+
+.selected {
+  fill: rgb(0, 0, 0);
 }
