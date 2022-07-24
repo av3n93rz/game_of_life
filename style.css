@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 #title {
@@ -42,12 +43,18 @@ button:not(:first-child) {
   margin-left: 98px;
 }
 
+#canvasContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  overflow: hidden;
+  background-color: gray;
+}
+
 #canvas {
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
   border: 2px solid black;
-  margin-bottom: 10px;
 }
 
 rect {
